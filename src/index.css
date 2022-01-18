@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* color*/
+.bg-light-black {
+  background: #32353c;
+}
+.bg-dark-black {
+  background: #272a2f;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 3.75rem;
+}
+
+#sı {
+  color: #6a6d76;
+  display: flex;
+  flex-direction: column; /*dikeyde hizala*/
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 2.75rem;
+}
+#sı .label {
+  color: #6a6d76;
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #272a2f;
+}
+
+#ınput {
+  width: 18rem;
+  height: 2.8rem;
+  border-radius: 10px;
+}
+.btn {
+  background: #34b45f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.btn-del {
+  background: #dd240c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  position: center;
+}
+
+#body {
+  font-family: 'Poppins', Arial, sans-serif;
+
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #f3f3f3;
+}
+
+.table-fixed {
+  text-align: start;
+  width: 50rem;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.thead {
+  border-color: #e67e22;
+  border-radius: 5px;
+}
+
+thead tr th {
+  float: left;
+  background-color: #f39c12;
+  border-color: #e67e22;
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+tbody td {
+  float: left;
+
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-left: 6rem;
+}
